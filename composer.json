@@ -1,0 +1,25 @@
+{
+    "name": "khant-nyar/tmdb_wrapper",
+    "description": "tmdb",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "KhantNyar\\TmdbWrapper\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel":{
+            "providers":[
+                "KhantNyar\\TmdbWrapper\\TmdbWrapperServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Khant-Nyar",
+            "email": "khantnyar.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

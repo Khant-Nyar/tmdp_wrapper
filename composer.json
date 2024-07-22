@@ -3,6 +3,7 @@
     "description": "tmdb",
     "type": "library",
     "version": "1.0.0",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "KhantNyar\\TmdbWrapper\\": "src/"

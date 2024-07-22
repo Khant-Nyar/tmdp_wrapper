@@ -2,6 +2,7 @@
     "name": "khant-nyar/tmdb_wrapper",
     "description": "tmdb",
     "type": "library",
+    "version": "1.0.0",
     "autoload": {
         "psr-4": {
             "KhantNyar\\TmdbWrapper\\": "src/"

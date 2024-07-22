@@ -22,6 +22,11 @@ class TmdbWrapperServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . "/../config/tmdb.php" => config_path("tmdb.php"),
         ], "tmdb-config");
+
+        $this->mergeConfigFrom(
+            __DIR__ . '/../config/tmdb.php',
+            'tmdb'
+        );
     }
 
     protected function mergePackageEnv(): void

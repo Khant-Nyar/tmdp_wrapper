@@ -11,7 +11,7 @@ class TmdbWrapperServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        $this->mergePackageEnv();
+        // $this->mergePackageEnv();
     }
 
     /**
